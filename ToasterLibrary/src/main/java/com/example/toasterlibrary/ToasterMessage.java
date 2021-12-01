@@ -6,7 +6,9 @@ import android.widget.Toast;
 public class ToasterMessage {
     
     public static void s(Context c, String message) {
-        // Short messages
+        // Create a new Toast message
         Toast.makeText(c, message, Toast.LENGTH_SHORT).show();
+        
+//        Toast
     }
 }
